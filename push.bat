@@ -18,5 +18,8 @@ git pull origin main
 REM Dorong perubahan ke repositori GitHub
 git push origin main
 
+git config --global user.anaksubuh
+git config --global user.johanesseptiawan2828@gmail.com
+
 echo Done!
 pause
