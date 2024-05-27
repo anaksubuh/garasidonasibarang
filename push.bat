@@ -1,9 +1,6 @@
-# Menambahkan semua perubahan yang belum dikomit
+git init
 git add .
-
-# Melakukan komit perubahan dengan pesan
-git commit -m "Update repository"
-
-# Mendorong perubahan ke repositori GitHub (pastikan untuk mengganti 'master' dengan nama cabang yang sesuai jika Anda menggunakan cabang lain)
-git push origin master
-
+git commit -m "new update"
+git branch -M main
+git remote add origin https://github.com/anaksubuh/garasidonasibarang.git
+git push -u origin main
